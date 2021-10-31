@@ -1,0 +1,47 @@
+package numericalData;
+
+import java.util.Scanner;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		String name;
+		char gred;
+		int number1 = 11;
+		int number2 = 22;
+		int number3 = 33;
+		int number4 = 44;
+		int number5 = 55;
+		int number6 = 66;
+		double number7 = 77;
+		int sum;
+		double sum2;
+		int sum3;
+		int sum4;
+		
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Enter your name: ");
+		name = scanMe.nextLine();
+		
+		System.out.println("Enter your CGPA: ");
+		number7 = scanMe.nextDouble();
+		
+		System.out.println("Enter your gred for Math in SPM: ");
+		gred = scanMe.next().charAt(0);
+		
+		System.out.println("Enter Number1: ");
+		number1 = scanMe.nextInt();
+		
+		System.out.println("Enter Number2: ");
+		number2 = scanMe.nextInt();
+		
+		System.out.println("My name is " + name);
+		System.out.println("Number1 = " + number1);
+		System.out.println("Number2 = " + number2);
+		System.out.println("My Gred is = " + gred);
+		
+
+	}
+
+}
