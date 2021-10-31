@@ -1,0 +1,12 @@
+package selfProgramming;
+
+public class Boolean {
+
+	public static void main(String[] args) {
+
+boolean C = false;
+boolean A = true;
+
+	}
+
+}
